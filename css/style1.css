@@ -1,0 +1,8 @@
+html {
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 0.7rem 3rem;
+    margin: 0rem 12rem;
+}
