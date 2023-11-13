@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.banner-inicio {
+    background-image: linear-gradient(54deg,
+            rgba(255, 131, 122, 0.25),
+            rgba(255, 131, 122, 0) 28%),
+        linear-gradient(241deg,
+            rgba(239, 152, 207, 0.25),
+            rgba(239, 152, 207, 0) 36%);
+}
+
+.pre-nav {
+    background-color: #fff;
+    background-image: radial-gradient(circle farthest-corner at 25% -20%, rgba(122, 167, 255, 0.15), hsla(0, 0%, 100%, 0) 52%), radial-gradient(circle farthest-corner at 100% 0%, rgba(255, 1, 1, 0.08), hsla(0, 0%, 100%, 0) 25%);
+}
+
+.c-btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 9px;
+}
+
+.c-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos personalizados para el icono */
+.custom-toggler-icon::before {
+    content: "\2630";
+    /* Código Unicode del icono de hamburguesa (tres líneas) */
+    color: #000;
+    /* Color negro para el icono con !important para forzarlo */
+}
+
+.c-p1 {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.c-link {
+    color: #626a72;
+    text-decoration: none !important;
+    transition: color 0.3s;
+}
+
+.c-link:hover {
+    color: black;
+}
+
+/*FEATURED SOURCES*/
+.c-btn2 {
+    background-color: #ededee;
+    color: #626a72;
+    border-radius: 9px;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: center;
+}
+
+.c-btn2:hover {
+    background-color: #ccc;
+}
+
+.c-tarjetas {
+    font-size: 92%;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/*MORE RESOURCES*/
+.bg-contacto {
+    background-color: #1d1d1d;
+    background-image: radial-gradient(circle farthest-corner at 0% 50%,
+            rgba(255, 1, 1, 0.15),
+            transparent 47%),
+        radial-gradient(circle farthest-corner at 40% 130%,
+            rgba(122, 167, 255, 0.41),
+            transparent 58%);
+}
+
+.bg-contacto h2 {
+    font-size: 250%;
+}
+
+.form-control {
+    height: 44px;
+    min-width: 144px;
+    border-radius: 9px;
+}
+
+.c-btn3 {
+    background-color: #495158;
+    min-width: 145px;
+    color: white;
+    font-size: 105%;
+    border-radius: 9px;
+}
+
+.c-btn3:hover {
+    background-color: #4b4b4b;
+    color: white;
+}
+
+.c-h6 {
+    color: rgb(180, 179, 179);
+    font-size: 90%;
+}
+
+.c-footer {
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-illustration {
+        width: 120px;
+        height: 118px;
+        float: left;
+    }
+
+    .right {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .order-sm-1 {
+        order: 1;
+    }
+
+    .order-sm-2 {
+        order: 2;
+    }
+}
