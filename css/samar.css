@@ -79,7 +79,8 @@ h6 {
 }
 
 .c-h2 {
-    font-size: 45px;
+    font-size: 36px;
+    font-weight: 700;
     color: #1f2471;
 }
 
@@ -129,4 +130,11 @@ h6 {
 
 .c-svg:hover {
     transform: scale(1.2, 1.2);
+}
+
+.c-panel3 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 4px rgba(31, 66, 135, .1);
+    padding: 15px;
 }
