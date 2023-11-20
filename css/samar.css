@@ -10,6 +10,10 @@ body {
     color: #505489;
 }
 
+li {
+    list-style: none;
+}
+
 .auto-space {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -157,4 +161,43 @@ h6 {
 
 .c-svg2 {
     vertical-align: middle;
+}
+
+.bg-gray {
+    background-color: #f8f5ff;
+}
+
+.c-li {
+    margin: 0 5px 10px;
+    padding: 0;
+}
+
+.c-a {
+    font-size: 18px;
+    color: #111942;
+    text-transform: capitalize;
+    background-color: rgba(240, 31, 117, .1);
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 0 10px;
+    border-color: transparent !important;
+    color: #111942;
+    font-weight: 550;
+}
+
+.c-btn4 {
+    background-image: linear-gradient(90deg, #ef146e 0, #fea958 51%, #ef146e);
+    border-radius: 30px;
+    background-size: 200%;
+    border-color: transparent !important;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.c-card4 {
+    height: 360px;
+    width: 360px;
 }
