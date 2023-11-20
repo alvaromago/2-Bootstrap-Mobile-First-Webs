@@ -79,7 +79,7 @@ h6 {
 }
 
 .c-h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     color: #1f2471;
 }
@@ -128,7 +128,8 @@ h6 {
     margin-bottom: 1.75rem;
 }
 
-.c-svg:hover {
+.c-svg:hover,
+.c-svg2:hover {
     transform: scale(1.2, 1.2);
 }
 
@@ -137,4 +138,23 @@ h6 {
     border-radius: 10px;
     box-shadow: 0 0 10px 4px rgba(31, 66, 135, .1);
     padding: 15px;
+}
+
+.c-secc3img {
+    box-shadow: 0 2px 15px rgba(240, 31, 117, .5);
+    background-image: linear-gradient(90deg, #111c58 0, #5c2782 51%, #111c58);
+    float: left;
+    margin-right: 20px;
+    border-radius: 100%;
+    background-size: 200%;
+    border-color: transparent !important;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.c-svg2 {
+    vertical-align: middle;
 }
