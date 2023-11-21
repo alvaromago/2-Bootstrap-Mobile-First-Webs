@@ -93,6 +93,16 @@ h6 {
     font-size: 2.375rem;
 }
 
+.c-h3 {
+    color: #1f2471;
+    font-weight: 700;
+}
+
+.c-h3:hover {
+    color: #f01f75;
+    cursor: pointer;
+}
+
 .c-h4 {
     font-size: 1.5rem;
     color: #1f2471;
@@ -157,7 +167,6 @@ h6 {
     border-radius: 100%;
     background-size: 200%;
     border-color: transparent !important;
-    display: inline-block;
     text-align: center;
     width: 80px;
     height: 80px;
@@ -237,6 +246,18 @@ h6 {
     position: absolute;
     top: 3.5px;
     right: 3px;
+}
+
+.div-carr {
+    width: 240;
+}
+
+.img-carr {
+    border-radius: 50px 0 50px 50px;
+}
+
+.img-carr:hover {
+    border-radius: 50px 50px 50px 0;
 }
 
 @media only screen and (max-width:1199px) {
