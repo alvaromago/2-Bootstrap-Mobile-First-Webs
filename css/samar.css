@@ -90,7 +90,7 @@ h6 {
 
 .c2-h2 {
     font-weight: 700;
-    font-size: 2.375rem;
+    font-size: 32px;
 }
 
 .c-h31 {
@@ -115,6 +115,10 @@ h6 {
     font-size: 1.5rem;
     color: #1f2471;
     font-weight: 700;
+}
+
+.first-section svg {
+    color: #ef146e;
 }
 
 .center-btn {
@@ -225,7 +229,7 @@ h6 {
 }
 
 .fifth-section {
-    background-image: linear-gradient(90deg, #111c58 0, #5c2782 51%, #111c58);
+    background-image: linear-gradient(90deg, #111c58 0, #5c2782 100%, #111c58);
 }
 
 .form-container {
@@ -254,10 +258,6 @@ h6 {
     position: absolute;
     top: 3.5px;
     right: 3px;
-}
-
-.div-carr {
-    width: 240;
 }
 
 .img-carr {
@@ -340,6 +340,56 @@ h6 {
     font-weight: 600
 }
 
+.c-noticia {
+    margin-bottom: 30px;
+}
+
+.nine-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.c-secc9img {
+    width: 180px;
+    min-width: 180px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.nine-section h5 {
+    color: #1f2471;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.nine-section p {
+    text-wrap: pretty;
+}
+
+.nine-section li {
+    font-weight: 600;
+}
+
+.c-div9 {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(31, 66, 135, .3);
+    border-radius: 10px;
+}
+
+.c-li2 {
+    margin-left: auto;
+}
+
+.c-li3 {
+    margin-left: 15px;
+}
+
 @media only screen and (max-width:1199px) {
     .form-container input {
         padding-right: 9rem;
@@ -369,5 +419,20 @@ h6 {
     .c-card4 {
         height: 450px;
         width: 600px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .c-div9 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .c-secc9img {
+        width: 100%;
+        min-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
