@@ -367,6 +367,11 @@ h6 {
     font-size: 1.25rem;
 }
 
+.nine-section h5:hover {
+    color: #f01f75;
+    cursor: pointer;
+}
+
 .nine-section p {
     text-wrap: pretty;
 }
@@ -388,6 +393,10 @@ h6 {
 
 .c-li3 {
     margin-left: 15px;
+}
+
+.c-secc10 li:hover {
+    transform: scale(1.02, 1.02);
 }
 
 @media only screen and (max-width:1199px) {
