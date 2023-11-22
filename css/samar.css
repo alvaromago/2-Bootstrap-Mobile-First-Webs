@@ -325,6 +325,21 @@ h6 {
     color: #fff;
 }
 
+.eight-section img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    min-width: 150px;
+    border-style: none;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.eight-section strong {
+    font-size: 19px;
+    font-weight: 600
+}
+
 @media only screen and (max-width:1199px) {
     .form-container input {
         padding-right: 9rem;
