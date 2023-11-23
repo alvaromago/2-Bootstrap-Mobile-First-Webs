@@ -399,6 +399,47 @@ h6 {
     transform: scale(1.02, 1.02);
 }
 
+.ten-section img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.ten-section {
+    .container {
+        max-width: 1199px;
+    }
+}
+
+.ten-section form {
+    padding: 50px;
+    box-shadow: 0 0 10px 4px rgba(31, 66, 135, .1);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.ten-section input,
+select,
+option,
+textarea {
+    box-shadow: 0 0 10px 4px rgba(31, 66, 135, .1);
+    height: 45px;
+    border-radius: 1.5rem !important;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-top-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    position: relative;
+    flex: 1 1 auto;
+    background: #fff;
+    border: 1px solid transparent;
+    color: #888;
+    resize: none;
+}
+
+.ten-section button {
+    cursor: pointer;
+}
+
 @media only screen and (max-width:1199px) {
     .form-container input {
         padding-right: 9rem;
