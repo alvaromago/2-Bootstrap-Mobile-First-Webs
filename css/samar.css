@@ -46,10 +46,6 @@ h6 {
     background-image: linear-gradient(170deg, #ef146e 0, #fea958 51%, #ef146e);
 }
 
-.c-icon {
-    width: 88%;
-}
-
 .c-navlink {
     color: #262f5a;
     font-size: 16px;
@@ -169,6 +165,7 @@ h6 {
     border-radius: 10px;
     box-shadow: 0 0 10px 4px rgba(31, 66, 135, .1);
     padding: 15px;
+    margin-bottom: 15px;
 }
 
 .c-secc3img {
@@ -442,6 +439,11 @@ textarea {
     background-image: linear-gradient(90deg, #111c58 0, #5c2782 51%, #111c58);
 }
 
+footer {
+    color: #fff;
+    font-size: 15px;
+}
+
 .c-socialmedia {
     height: 32px;
     width: 32px;
@@ -464,6 +466,7 @@ textarea {
     display: block;
     border-radius: 50px;
     background-image: linear-gradient(90deg, #ef146e 0, #fea958 105%, #ef146e);
+    margin-top: 4px;
 }
 
 .footer-top h5 {
@@ -472,11 +475,24 @@ textarea {
     padding-bottom: 10px;
     margin: 0 0 15px;
     position: relative;
-    color: #fff;
     line-height: 1.2;
 }
 
+.footer-top li {
+    margin-bottom: 10px;
+}
+
 .footer-top li:hover {
+    cursor: pointer;
+}
+
+.footer-bot {
+    background-color: #111942;
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+.footer-bot strong {
     cursor: pointer;
 }
 
@@ -502,13 +518,15 @@ textarea {
     .c-div9 {
         display: block;
     }
-}
 
-@media only screen and (max-width: 575px) {
     .c-secc9img {
         width: 100%;
         min-width: 100%;
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    #btnav {
+        display: none;
     }
 }
