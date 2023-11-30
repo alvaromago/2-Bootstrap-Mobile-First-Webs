@@ -148,6 +148,10 @@ h6 {
 
 .c-panel:hover {
     box-shadow: 0 0 10px 4px rgba(31, 66, 135, .1);
+
+    .c-svg {
+        transform: scale(1.2, 1.2);
+    }
 }
 
 .c-panel2 {
@@ -155,7 +159,6 @@ h6 {
     margin-bottom: 1.75rem;
 }
 
-.c-svg:hover,
 .c-svg2:hover {
     transform: scale(1.2, 1.2);
 }
