@@ -509,6 +509,10 @@ footer {
     .form-container input {
         padding-right: 6.75rem;
     }
+
+    .pc-card7 {
+        margin-left: auto;
+    }
 }
 
 @media only screen and (max-width:767px) {
